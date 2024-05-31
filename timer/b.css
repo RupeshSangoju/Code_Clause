@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+.container {
+    text-align: center;
+}
+
+#timer {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#timer span {
+    margin: 0 10px;
+}
+
+input[type="datetime-local"] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    border-radius: 5px;
+}
