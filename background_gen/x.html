@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Background Generator</title>
+  <link rel="stylesheet" href="y.css">
+</head>
+<body>
+  <div id="controls">
+    <h1 id="title">Hola..😉</h1>
+    <div>
+      <label for="color1" id="label1">Color 1:</label>
+      <input type="color" id="color1" name="color1" value="#ff0000">
+    </div>
+    <div>
+      <label for="color2" id="label2">Color 2:</label>
+      <input type="color" id="color2" name="color2" value="#0000ff">
+    </div>
+    <div>
+      <label for="type">Gradient Type:</label>
+      <select id="type" name="type">
+        <option value="linear">Linear</option>
+        <option value="radial">Radial</option>
+        <option value="conic">Conic</option>
+        <option value="ellipse">Ellipse</option>
+        <option value="circle">Circle</option>
+        <option value="repeating-linear">Repeating Linear</option>
+        <option value="repeating-radial">Repeating Radial</option>
+        <option value="repeating-conic">Repeating Conic</option>
+        <option value="repeating-ellipse">Repeating Ellipse</option>
+      </select>
+    </div>
+    <div id="angle-container" style="display: none;">
+      <label for="angle">Angle (for Linear and Repeating Linear):</label>
+      <input type="number" id="angle" name="angle" value="90" min="0" max="360">
+    </div>
+  </div>
+  <div id="preview"></div>
+  <script src="z.js"></script>
+</body>
+</html>
